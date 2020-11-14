@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="ru">
+<!-- Голова документа: тут используется служебная информация для браузера. Ключевые слова,
+автор, кодировка и т.д-->
+
+<head>
+    <!--мета-теги используются для поисковых машых/браузера в качестве служебной информации,
+    которая нужна для того, чтобы правильно отображать нашу страницу или правильно сообщать
+    информацию об этой странице поисковым машинам-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!--Custom CSS -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/mystyle.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <!--[if lt IE 9]><script src="http://css3-mediaqueries-js.googlecode.com/files/css3-mediaqueries.js"></script><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <title>Fah Ahead</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="blocksit.min.js"></script>
+
+</head>
+
+
+<body>
+
+    <header id="header">
+        <div class="hd-container">
+            <nav class="navbar navbar-default navbar-expand-lg navbar-light ">
+                <div class="container">
+                    <a class="navbar-brand" href="/">
+                        <img src="/img/logo.svg" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent" aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                    <div class="collapse navbar-collapse" id="navContent">
+                        <ul class="navbar-nav m-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#expectation">Что Вас ждет </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#includes"> Что включено</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#scheldue"> Программа</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#reviews"> Отзывы</a>
+                            </li>
+                        </ul>
+                        <div class="header-phone">
+                            <img src="/img/phone.svg" alt=""> <a href="" class="phone">+380-6655-45-218</a>
+                            <a href="#" class="call-back ">Перезвоните мне</a>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+    </header>
+
+
+    <div class="header-bott header-img" id="header-bot">
+        <div class="invite " id="main">
+            <div class="container indent">
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-3">
+                        <div id="myModal">
+                            <iframe id="youtube" width="560" height="315" src="https://www.youtube.com/embed/he-aCCA2ONI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin-top: 15px;"></iframe>
+
+                            <span id="myModal__close" class="close">x</span>
+                        </div>
+                        <div id="myOverlay"></div>
+                    </div>
+
+                </div>
+                <h1 class="title">Авторский тур <br> в Европу</h1>
+                <p>Получите максимум впечатлений от FarAhead</p>
+                <div class="row">
+                    <div class="col-lg-2 col-md-4 col-sm-4 col-5 ">
+                        <button class=" btn-primary main-btn" type="button" style="transition: 0.8s;"><p>Хочу поехать </p><img src="/img/try_arrow.svg" alt="" class="try_arrow"></button>
+
+                    </div>
+                    <div class="col-lg-4 col-md-3 col-sm-2 col-5 price mx-auto"> 2500$</div>
+                    <div class="col-lg-1 offset-lg-2 col-md-1 offset-md-1 col-sm-2 offset-sm-1 col-3 video"> <img src="/img/video.svg" alt="" type="button" class="btn-primary video-btn" style="transition: 0.8s;">
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-4 mt-auto video-text">
+                        <h3 style="font-weight: 500;"><samp>Посмотреть </samp><samp>обзор тура </samp></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+    </div>
+
+
+    <section id="expectation" class="d-flex align-items-center justify-content-center">
+        <div class="container text-center">
+            <div class="row justify-content-center indent">
+                <div class="col-md-6col-lg-8">
+                    <h1 class="unit-section">Что Вас ждет в этом туре</h1>
+                </div>
+            </div>
+            <div class="row mt-5 justify-content-center">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="icon-box mx-auto">
+                        <img src="/img/expect1.svg" alt="" clas="img-fluid">
+                        <h3>Экскурсии</h3>
+                        <h5>Физическая нагрузка</h5>
+                        <h5>Уровни 4/10</h5>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="icon-box mx-auto">
+                        <img src="/img/expect2.svg" alt="" clas="img-fluid">
+                        <h3>Проживание</h3>
+                        <h5>10 дней в шикарных</h5>
+                        <h5>аппартаментах</h5>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="icon-box mx-auto">
+                        <img src="/img/expect3.svg" alt="" clas="img-fluid">
+                        <h3>Транспорт</h3>
+                        <h5>Включен по всему</h5>
+                        <h5>маршруту</h5>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="icon-box mx-auto">
+                        <img src="/img/expect4.svg" alt="" clas="img-fluid">
+                        <h3>Сопровождение</h3>
+                        <h5>Гид с опытом 10+ лет</h5>
+                        <h5>Олег Иванов</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="Feedback1" clas="d-flex align-items-center justify-content-center ">
+        <div class="container">
+            <div class="row indent" justify-content-center>
+                <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-sm-10 offset-sm-1 col-10 offset-1">
+                    <div class="feedback-frame">
+                        <div class="row mt-auto ml-auto">
+                            <div class="col-xl-4 col-lg-4  col-md-12 col-sm-12 col-11 justify-content-center feedback-text">
+                                <h6>Оставьте свой номер телефона и мы расскажем более детально</h6>
+                            </div>
+                            <div class="col-xl-4  col-lg-4 col-md-6 col-sm-6 col-11">
+                                <input type="tel" class="input-but mx-auto" placeholder="     Номер телефона">
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-11 pl-">
+                                <button class=" btn-primary main-btn butt mx-auto" type="button"><p>Хочу поехать </p><img src="/img/try_arrow.svg" alt="" class="try_arrow"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="includes" class="d-flex align-items-center justify-content-center ">
+        <div class="container text-center ">
+            <div class="row justify-content-center indent">
+                <div class="col-lg-8 col-md-6 ">
+                    <h1 class="unit-section">Что включено в стоимость</h1>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="includes-container col-xl-6 offset-xl-3 col-lg-6 offset-lg-3 col-10 offset-1">
+                    <div class="include-atom-container">
+                        <div class="include-atom-img">
+                            <img src="img/include.svg" alt="">
+                        </div>
+                        <div class=" include-text" style="text-align: left;">
+                            <h5>Комфортабельный транспорт по всему маршруту</h5>
+                        </div>
+                    </div>
+                    <div class="include-atom-container ">
+                        <div class="include-atom-img">
+                            <img src="img/include.svg" alt="">
+                        </div>
+                        <div class=" include-text " style="text-align: left;">
+                            <h5>Услуги гида-проводника</h5>
+                        </div>
+                    </div>
+                    <div class="include-atom-container ">
+                        <div class="include-atom-img">
+                            <img src="img/include.svg" alt="">
+                        </div>
+                        <div class=" include-text " style="text-align: left;">
+                            <h5>Медицинская страховка</h5>
+                        </div>
+                    </div>
+                    <div class="include-atom-container ">
+                        <div class="include-atom-img">
+                            <img src="img/include.svg" alt="">
+                        </div>
+                        <div class=" include-text " style="text-align: left;">
+                            <h5>Экскурсии по программе</h5>
+                        </div>
+                    </div>
+                    <div class="include-atom-container ">
+                        <div class="include-atom-img">
+                            <img src="img/include.svg" alt="">
+                        </div>
+                        <div class=" include-text " style="text-align: left;">
+                            <h5>3-х разовое питание</h5>
+                        </div>
+                    </div>
+                    <div class="include-atom-container ">
+                        <div class="include-atom-img">
+                            <img src="img/include.svg" alt="">
+                        </div>
+                        <div class=" include-text " style="text-align: left;">
+                            <h5>Проживание в отелях 4-5 звезд по маршруту</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section id="scheldue" class="d-flex align-items-center justify-content-center">
+        <div class="container text-center">
+            <div class="row justify-content-center indent">
+                <div class="col-md-6col-lg-8">
+                    <h1 class="unit-section">Программа поездки</h1>
+                </div>
+            </div>
+            <div class="row mt-5 justify-content-center">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="icon-box mx-auto">
+                        <img src="/img/day1.svg" alt="">
+                        <h3>День 1</h3>
+                        <h5>Тауэрский мост</h5>
+
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="icon-box mx-auto">
+                        <img src="/img/day2.svg" alt="">
+                        <h3>День 2</h3>
+                        <h5>Лондонский глаз</h5>
+
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="icon-box mx-auto">
+                        <img src="/img/day3.svg" alt="">
+                        <h3>День 3</h3>
+                        <h5>Музей мадам Тюссо</h5>
+
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="icon-box mx-auto">
+                        <img src="/img/day4.svg" alt="">
+                        <h3>День 4</h3>
+                        <h5>Трафальгарская площадь</h5>
+
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="icon-box mx-auto mx-auto">
+                        <img src="/img/day5.svg" alt="">
+                        <h3>День 5</h3>
+                        <h5>Лондонский Аквариум</h5>
+
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="icon-box mx-auto">
+                        <img src="/img/day6.svg" alt="">
+                        <h3>День 6</h3>
+                        <h5>Манчестер</h5>
+
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="icon-box mx-auto">
+                        <img src="/img/day7.svg" alt="">
+                        <h3>День 7</h3>
+                        <h5>Дублин</h5>
+
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="icon-box mx-auto">
+                        <img src="/img/day8.svg" alt="">
+                        <h3>День 8</h3>
+                        <h5>Вестминстерское аббатство</h5>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section id="scheldue2" class="d-flex align-items-center justify-content-center">
+        <div class="container text-center">
+            <div class="row justify-content-center indent">
+                <div class="col-md-6col-lg-8">
+                    <h1 class="unit-section">Программа поездки</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-10 align-content-center">
+                    <div id="carouselControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+
+                                <div class="review-info d-block w-100">
+                                    <div class="icon-box mx-auto ">
+                                        <img src="/img/day1.svg" alt="">
+                                        <h3>День 1</h3>
+                                        <h5>Тауэрский мост</h5>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item ">
+
+                                <div class="review-info d-block w-100">
+                                    <div class="icon-box mx-auto">
+                                        <img src="/img/day2.svg" alt="">
+                                        <h3>День 2</h3>
+                                        <h5>Лондонский глаз</h5>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item ">
+
+                                <div class="review-info d-block w-100">
+                                    <div class="icon-box mx-auto">
+                                        <img src="/img/day3.svg" alt="">
+                                        <h3>День 3</h3>
+                                        <h5>Музей мадам Тюссо</h5>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item ">
+
+                                <div class="review-info d-block w-100">
+                                    <div class="icon-box mx-auto">
+                                        <img src="/img/day4.svg" alt="">
+                                        <h3>День 4</h3>
+                                        <h5>Трафальгарская площадь</h5>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item ">
+
+                                <div class="review-info d-block w-100">
+                                    <div class="icon-box mx-auto mx-auto">
+                                        <img src="/img/day5.svg" alt="">
+                                        <h3>День 5</h3>
+                                        <h5>Лондонский Аквариум</h5>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item ">
+
+                                <div class="review-info d-block w-100">
+                                    <div class="icon-box mx-auto">
+                                        <img src="/img/day6.svg" alt="">
+                                        <h3>День 6</h3>
+                                        <h5>Манчестер</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item ">
+
+                                <div class="review-info d-block w-100">
+                                    <div class="icon-box mx-auto">
+                                        <img src="/img/day7.svg" alt="">
+                                        <h3>День 7</h3>
+                                        <h5>Дублин</h5>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item ">
+
+                                <div class="review-info d-block w-100">
+                                    <div class="icon-box mx-auto">
+                                        <img src="/img/day8.svg" alt="">
+                                        <h3>День 8</h3>
+                                        <h5>Вестминстерское аббатство</h5>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev" style="width: 30px; left: 0;">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next" style="width: 30px; right: 0;">
+                            <span class=" carousel-control-next-icon " aria-hidden="true "></span>
+                            <span class="sr-only ">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section id="reviews" class="d-flex align-items-center justify-content-center">
+        <div class="container text-center">
+            <div class="row justify-content-center indent">
+                <div class="col-md-6col-lg-8">
+                    <h1 class="unit-section">Посмотрите отзывы счастливых путешественников</h1>
+                </div>
+            </div>
+            <div class="row mt-5">
+
+                <div class="includes-container col-lg-6 offset-lg-3 col-sm-10 offset-sm-1 col-10 offset-1">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+
+                                <div class="review-info d-block w-100">
+                                    <div class="row">
+                                        <div class="col-lg-5 col-5">
+                                            <img src="/img/SEREGA.svg" alt="" align="right">
+                                        </div>
+                                        <div class="col-lg-7 col-6" style="text-align: left; margin-top: 20px;">
+                                            <h4> Irina Bodnar </h4>
+                                            <h6>22 февраля 2020</h6>
+                                        </div>
+                                    </div>
+                                    <div class="review-text ml-auto mr-auto">
+                                        <p>Хочется сказать всем, кто только знакомится с данной доставкой. Смело зазывайте, покупайте и получайте удовольствие!!! </p>
+                                        <p>Самое лучшее качество в Одессе и свежесть продукции! Все на самом высоком уровне! Советую всем.</p>
+                                        <p>Лучшие бургеры в Одессе!</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+
+                                <div class="review-info d-block w-100">
+                                    <div class="row">
+                                        <div class="col-lg-5 col-5">
+                                            <img src="/img/SEREGA.svg" alt="" align="right">
+                                        </div>
+                                        <div class="col-lg-7 col-6" style="text-align: left; margin-top: 20px;">
+                                            <h4> Sanya </h4>
+                                            <h6>14 февраля 2020</h6>
+                                        </div>
+                                    </div>
+                                    <div class="review-text ml-auto mr-auto">
+                                        <p>Хочется сказать всем, кто только знакомится с данной доставкой. Смело зазывайте, покупайте и получайте удовольствие!!! </p>
+                                        <p>Самое лучшее качество в Одессе и свежесть продукции! Все на самом высоком уровне! Советую всем.</p>
+                                        <p>Лучшие бургеры в Одессе!</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+
+                                <div class="review-info d-block w-100">
+                                    <div class="row">
+                                        <div class="col-lg-5 col-5">
+                                            <img src="/img/SEREGA.svg" alt="" align="right">
+                                        </div>
+                                        <div class="col-lg-7 col-6" style="text-align: left; margin-top: 20px;">
+                                            <h4> Oleg </h4>
+                                            <h6>10 марта 2020</h6>
+                                        </div>
+                                    </div>
+                                    <div class="review-text ml-auto mr-auto">
+                                        <p>Хочется сказать всем, кто только знакомится с данной доставкой. Смело зазывайте, покупайте и получайте удовольствие!!! </p>
+                                        <p>Самое лучшее качество в Одессе и свежесть продукции! Все на самом высоком уровне! Советую всем.</p>
+                                        <p>Лучшие бургеры в Одессе!</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev" style="width: 30px; left: 0;">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next" style="width: 30px; right: 0;">
+                            <span class=" carousel-control-next-icon " aria-hidden="true "></span>
+                            <span class="sr-only ">Next</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+
+
+
+    <section id="Feedback2" clas="d-flex align-items-center justify-content-center ">
+        <div class="container ">
+            <div class="row indent " justify-content-center>
+                <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-sm-10 offset-sm-1 col-10 offset-1 ">
+                    <div class="feedback-frame ">
+                        <div class="row mt-auto ml-auto ">
+                            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-11 justify-content-center feedback-text ">
+                                <h6>Оставьте свой номер телефона и мы расскажем более детально</h6>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-11 ">
+                                <input type="tel " class="input-but mx-auto " placeholder=" Номер телефона ">
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-11 ">
+                                <button class=" btn-primary main-btn butt mx-auto " type="button "><p>Хочу поехать </p><img src="/img/try_arrow.svg " alt=" " class="try_arrow "></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div>
+        <div class="container text-center " style="padding-bottom: 50px">
+            <div class="row justify-content-center indent">
+                <div class="col-md-6col-lg-8">
+                    <h1 class="unit-section">Посмотрите другие туры</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <section id="moreToors">
+
+        <div class="grid">
+            <div class="tmp-icon">
+                <div class="tmp-icon-img">
+                    <img src="/img/moreToors/Berlin.jpg" alt="Berlin">
+                </div>
+                <div class="tmp-icon-text">
+                    <h2>Берлин 1499$ <br>Подробнее...</h2>
+                </div>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="tmp-icon">
+                <div class="tmp-icon-img">
+                    <img src="https://www.telegraph.co.uk/content/dam/Travel/2019/September/dubai-(getty).jpg" alt="Dubai">
+                </div>
+                <div class="tmp-icon-text">
+                    <h2>Дубай 1499$ <br>Подробнее...</h2>
+                </div>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="tmp-icon">
+                <div class="tmp-icon-img">
+                    <img src="https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?ixlib=rb-1.2.1&w=1000&q=80" alt="Paris">
+                </div>
+                <div class="tmp-icon-text">
+                    <h2>Париж 1499$ <br>Подробнее...</h2>
+                </div>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="tmp-icon">
+                <div class="tmp-icon-img">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/London_Big_Ben_Phone_box.jpg" alt="London">
+                </div>
+                <div class="tmp-icon-text">
+                    <h2>Лондон 1499$ <br>Подробнее...</h2>
+                </div>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="tmp-icon">
+                <div class="tmp-icon-img">
+                    <img src="/img/moreToors/Tailand.jpeg" alt="Tailand">
+                </div>
+                <div class="tmp-icon-text">
+                    <h2>Тайланд 1499$ <br>Подробнее...</h2>
+                </div>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="tmp-icon">
+                <div class="tmp-icon-img">
+                    <img src="https://media.holidayme.com/wp-content/uploads/2016/05/31113713/shutterstock_182355047.jpg" alt="Italia">
+                </div>
+                <div class="tmp-icon-text">
+                    <h2>Италия 1499$ <br>Подробнее...</h2>
+                </div>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="tmp-icon">
+                <div class="tmp-icon-img">
+                    <img src="https://www.jetsetter.com/wp-content/uploads/sites/7/2018/04/Gadbbj_E-1380x690.jpeg" alt="Finliandia">
+                </div>
+                <div class="tmp-icon-text">
+                    <h2>Финляндия 1499$ <br>Подробнее...</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="foot " class="footer indent ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-lg-5 offset-lg-1 col-md-6 col-12 align-items-center ">
+                    <div class="logo-item mt-3 ">
+                        <a href="/ ">
+                            <img src="img/footer-logo.svg " alt=" ">
+                        </a>
+
+                    </div>
+                    <div class="footer-item ">
+                        <ul>
+                            <li><a href="/ ">Контакты</a></li>
+                            <li><a href="/ ">О компании</a></li>
+                            <li><a href="/ ">Документы и лицензии</a></li>
+                            <li><a href="/ ">Помощь</a></li>
+                        </ul>
+                    </div>
+
+                    <h4 style="color:white; font-size:17; ">Мы в социальных сетях</h4>
+                    <div class="contact-info-socials " style="padding:10px ">
+                        <ul>
+                            <li>
+                                <a href=" "><img src="/img/telegramm.svg " alt="telegramm "></a>
+                            </li>
+                            <li>
+                                <a href=" "><img src="img/facebook.svg " alt="facebook "></a>
+                            </li>
+                            <li>
+                                <a href=" "><img src="img/vk.svg " alt="vk "></a>
+                            </li>
+                            <li>
+                                <a href=" "><img src="img/instagramm.svg " alt="instagram "></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="contact-map col-lg-5 col-md-6 col-12 ">
+                    <div id="map-container " class="z-depth-1-half map-container-4 ">
+                        <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed " frameborder="0 " style="border:0; height: 300px; width: 100%; " allowfullscreen></iframe>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row ">
+                <div class="col-lg-5 offset-lg-1 col-md-6 col-12 ">
+                    <div class="athor py-1 pb-1 ">
+                        <h4 style="font-size: 17px; color:white; ">©2020 Все права защищены. Far Ahead </h4>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js " integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD " crossorigin="anonymous "></script>
+
+    <script src="index.js" type="text/javascript "></script>
+
+
+
+
+
+</body>
+
+</html>
